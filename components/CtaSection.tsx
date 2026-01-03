@@ -24,19 +24,35 @@ const CtaSection: React.FC = () => {
                 Book a free 30-min Clinic Audit. We'll analyze your current system and show you the exact gaps costing you lakhs.
               </p>
 
-              <div className="max-w-xl mx-auto bg-white p-2 rounded-2xl shadow-2xl border border-slate-100 flex flex-col sm:flex-row gap-2">
-                <input
-                  type="tel"
-                  placeholder="Your WhatsApp Number"
-                  className="flex-grow px-6 py-4 bg-transparent outline-none font-bold text-slate-900 placeholder:text-slate-400"
-                />
+              <form
+                name="contact"
+                method="post"
+                className="max-w-xl mx-auto bg-white p-2 rounded-2xl shadow-2xl border border-slate-100 flex flex-col gap-2"
+              >
+                <input type="hidden" name="form-name" value="contact" />
+                <div className="flex flex-col sm:flex-row gap-2">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Your Name"
+                    required
+                    className="w-full sm:w-1/2 px-6 py-4 bg-transparent outline-none font-bold text-slate-900 placeholder:text-slate-400 border-b sm:border-b-0 sm:border-r border-slate-100"
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                    className="w-full sm:w-1/2 px-6 py-4 bg-transparent outline-none font-bold text-slate-900 placeholder:text-slate-400"
+                  />
+                </div>
                 <button
                   type="submit"
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-xl font-black text-lg transition-all shadow-xl shadow-blue-500/30 hover:scale-[1.02] active:scale-95 whitespace-nowrap"
+                  className="w-full bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-xl font-black text-lg transition-all shadow-xl shadow-blue-500/30 hover:scale-[1.02] active:scale-95 whitespace-nowrap"
                 >
                   Get Free Audit
                 </button>
-              </div>
+              </form>
               <p className="text-xs text-slate-400 font-bold uppercase tracking-widest mt-6">
                 No Credit Card Required • No Obligations
               </p>

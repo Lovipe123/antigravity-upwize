@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Upwize - Stop Losing Patients & Grow Your Practice</title>
+  <title>Upwize | Automated Clinic Appointment Booking & Patient Follow-up System</title>
+  <meta name="description"
+    content="Stop losing patients to missed calls. Upwize is the automated patient follow-up system for clinics, ayurveda, and physiotherapy practices. Boost google reviews and revenue." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
@@ -13,6 +15,18 @@
 </head>
 
 <body class="bg-white text-slate-900">
+  <!-- Netlify Form for Build Detection -->
+  <form name="contact" netlify hidden>
+    <p>
+      <label>Name <input type="text" name="name" /></label>
+    </p>
+    <p>
+      <label>Email <input type="email" name="email" /></label>
+    </p>
+    <p>
+      <button type="submit">Send</button>
+    </p>
+  </form>
   <div id="root"></div>
   <elevenlabs-convai agent-id="agent_7201ke14enghfspszttjn89651v3"></elevenlabs-convai>
   <script type="module" src="/index.tsx"></script>
