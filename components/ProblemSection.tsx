@@ -65,7 +65,7 @@ const ProblemSection: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {problems.map((problem, idx) => (
             <div key={idx} className="group relative bg-slate-50/50 p-8 rounded-[2rem] border border-slate-100 transition-all duration-500 hover:bg-white hover:shadow-2xl hover:shadow-slate-200 hover:-translate-y-2">
               <div className="absolute top-6 right-6 opacity-0 group-hover:opacity-100 transition-opacity">

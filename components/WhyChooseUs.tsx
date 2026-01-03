@@ -25,7 +25,7 @@ const reasons = [
 
 const WhyChooseUs: React.FC = () => {
   return (
-    <section id="why-us" className="py-24 lg:py-40 bg-white relative overflow-hidden">
+    <section id="why-us" className="py-12 lg:py-40 bg-white relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-20 lg:gap-32 items-center">
           <div className="space-y-8">

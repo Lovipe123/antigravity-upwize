@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-slate-900 text-slate-400 py-24 relative overflow-hidden">
+    <footer className="bg-slate-900 text-slate-400 py-12 lg:py-24 relative overflow-hidden">
       {/* Subtle Background Glow */}
       <div className="absolute top-0 right-1/4 w-[500px] h-[500px] bg-blue-500/10 rounded-full blur-[100px]"></div>
 

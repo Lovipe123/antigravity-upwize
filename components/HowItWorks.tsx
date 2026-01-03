@@ -23,7 +23,7 @@ const steps = [
 
 const HowItWorks: React.FC = () => {
   return (
-    <section id="how-it-works" className="py-24 lg:py-40 bg-slate-900 relative overflow-hidden">
+    <section id="how-it-works" className="py-12 lg:py-40 bg-slate-900 relative overflow-hidden">
       {/* Decorative Elements */}
       <div className="absolute top-0 left-0 w-full h-24 bg-white rounded-b-[100px] lg:rounded-b-[200px]"></div>
       <div className="absolute -bottom-1/4 -right-1/4 w-[600px] h-[600px] bg-blue-500/10 rounded-full blur-[120px]"></div>

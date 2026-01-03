@@ -2,7 +2,7 @@ import React from 'react';
 
 const SolutionSection: React.FC = () => {
   return (
-    <section id="solution" className="py-24 lg:py-36 bg-slate-50/50 relative">
+    <section id="solution" className="py-12 lg:py-36 bg-slate-50/50 relative overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           <div className="relative">

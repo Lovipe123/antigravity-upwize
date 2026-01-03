@@ -2,7 +2,7 @@ import React from 'react';
 
 const CtaSection: React.FC = () => {
   return (
-    <section id="cta" className="relative py-24 lg:py-48 overflow-hidden bg-white">
+    <section id="cta" className="relative py-12 lg:py-48 overflow-hidden bg-white">
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-blue-50/50 -z-10"></div>
 

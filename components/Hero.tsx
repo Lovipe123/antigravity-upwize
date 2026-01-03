@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative bg-slate-50 pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+    <section className="relative bg-slate-50 pt-24 pb-12 lg:pt-48 lg:pb-32 overflow-hidden">
       {/* Background Orbs */}
       <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 w-[500px] h-[500px] bg-blue-100/50 rounded-full blur-3xl opacity-60 animate-pulse"></div>
       <div className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/4 w-[600px] h-[600px] bg-indigo-100/50 rounded-full blur-3xl opacity-60"></div>
@@ -17,11 +17,11 @@ const Hero: React.FC = () => {
               </span>
               Top Rated Medical Practice Partner
             </div>
-            <h1 className="text-5xl lg:text-7xl font-black text-slate-900 leading-[1.1] tracking-tight">
+            <h1 className="text-4xl lg:text-7xl font-black text-slate-900 leading-[1.1] tracking-tight">
               Your <span className="text-blue-600">Practice</span> Is <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Leaking Revenue</span> Every Day.
             </h1>
             <p className="text-xl lg:text-2xl text-slate-600 max-w-xl mx-auto lg:mx-0 leading-relaxed font-semibold">
-              Clinics, Ayurveda, Physiotherapy & more.
+              Clinics, Dentists, Physiotherapy & more.
             </p>
             <p className="text-lg lg:text-xl text-slate-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
               Missed calls, unanswered WhatsApps, and forgotten follow-ups are costing you lakhs. We plug the leaks automatically with AI.

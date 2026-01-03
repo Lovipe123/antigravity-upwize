@@ -141,7 +141,7 @@ const features = [
 
 const FeaturesSection: React.FC = () => {
   return (
-    <section id="features" className="py-24 lg:py-40 bg-white relative">
+    <section id="features" className="py-24 lg:py-40 bg-white relative overflow-hidden">
       {/* Abstract Background Element */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[1200px] h-[1200px] bg-slate-50 rounded-full blur-3xl -z-10"></div>
 
@@ -156,7 +156,7 @@ const FeaturesSection: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {features.map((feature, idx) => (
             <div key={idx} className="group relative bg-white rounded-[2.5rem] border border-slate-100 p-8 shadow-sm hover:shadow-2xl hover:shadow-blue-500/5 transition-all duration-500 hover:-translate-y-2 flex flex-col h-full">
               <div className="flex-grow">
