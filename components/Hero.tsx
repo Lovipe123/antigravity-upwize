@@ -15,12 +15,15 @@ const Hero: React.FC = () => {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
               </span>
-              Top Rated Dental Practice Partner
+              Top Rated Medical Practice Partner
             </div>
             <h1 className="text-5xl lg:text-7xl font-black text-slate-900 leading-[1.1] tracking-tight">
-              Your Clinic Is <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Leaking Revenue</span> Every Day.
+              Your <span className="text-blue-600">Practice</span> Is <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Leaking Revenue</span> Every Day.
             </h1>
-            <p className="text-xl lg:text-2xl text-slate-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
+            <p className="text-xl lg:text-2xl text-slate-600 max-w-xl mx-auto lg:mx-0 leading-relaxed font-semibold">
+              Clinics, Ayurveda, Physiotherapy & more.
+            </p>
+            <p className="text-lg lg:text-xl text-slate-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
               Missed calls, unanswered WhatsApps, and forgotten follow-ups are costing you lakhs. We plug the leaks automatically with AI.
             </p>
             <div className="flex flex-col sm:flex-row gap-5 justify-center lg:justify-start pt-4">
