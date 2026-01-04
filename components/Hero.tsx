@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
                 <h3 className="font-extrabold text-xl text-slate-800">Clinic Leak Audit</h3>
                 <p className="text-slate-500 font-medium">Real-time performance metrics before switching to Upwize.</p>
               </div>
-              <div className="p-6 grid grid-cols-2 gap-6">
+              <div className="p-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="bg-rose-50/80 p-5 rounded-2xl border border-rose-100 group transition-all hover:bg-rose-100/80">
                   <p className="text-xs font-bold text-rose-800 uppercase tracking-wider mb-1">Leaked Revenue</p>
                   <p className="text-4xl font-black text-rose-600 tabular-nums">₹85,000</p>

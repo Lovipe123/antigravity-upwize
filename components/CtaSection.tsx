@@ -46,6 +46,13 @@ const CtaSection: React.FC = () => {
                     className="w-full sm:w-1/2 px-6 py-4 bg-transparent outline-none font-bold text-slate-900 placeholder:text-slate-400"
                   />
                 </div>
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="Your Phone Number"
+                  required
+                  className="w-full px-6 py-4 bg-transparent outline-none font-bold text-slate-900 placeholder:text-slate-400 border-t border-slate-100"
+                />
                 <button
                   type="submit"
                   className="w-full bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-xl font-black text-lg transition-all shadow-xl shadow-blue-500/30 hover:scale-[1.02] active:scale-95 whitespace-nowrap"
